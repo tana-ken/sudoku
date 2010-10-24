@@ -1,0 +1,28 @@
+div.main {
+  width: 828px;
+  height: 828px;
+  border: solid thin black;
+}
+
+div.main div.cell {
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  width: 90px;
+  height: 90px;
+  border: solid thin black;
+  text-align: center;
+}
+
+p.fix {
+  font-size: 20pt;
+}
+
+div.cnd {
+  width: 30px;
+  height: 30px;
+  float: left;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
